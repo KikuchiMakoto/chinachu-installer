@@ -87,6 +87,8 @@ cd ~/chinachu
 
 cp config.sample.json config.json
 nano config.json
-sudo nano /usr/local/etc/mirakurun/tuners.yml
+sudo cp ./tuners.yml /usr/local/etc/mirakurun/tuners.yml
+sudo cp ./channels.yml /usr/local/etc/mirakurun/channels.yml
+sudo cp ./server.yml /usr/local/etc/mirakurun/server.yml
 ./chinachu service wui execute
 sudo nano /etc/logrotate.d/chinachu
