@@ -8,7 +8,7 @@ wget http://plex-net.co.jp/plex/px-s1ud/PX-S1UD_driver_Ver.1.0.1.zip
 unzip PX-S1UD_driver_Ver.1.0.1.zip
 sudo cp PX-S1UD_driver_Ver.1.0.1/x64/amd64/isdbt_rio.inp /lib/firmware/
 
-sudo apt install build-essential git build-essential curl git-core vainfo pcscd libpcsclite-dev libccid pcsc-tools pkg-config -y
+sudo apt install build-essential git build-essential cmake gcc autoconf automake curl git-core vainfo pcscd libpcsclite-dev libccid pcsc-tools pkg-config -y
 
 cd ~/temp
 wget https://github.com/stz2012/libarib25/archive/master.zip
