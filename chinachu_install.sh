@@ -35,7 +35,7 @@ sudo apt install -y nodejs
 sudo npm install pm2 -g
 sudo npm install mirakurun -g --unsafe-perm --production
 sudo npm install arib-b25-stream-test --unsafe
-sudo npm install pm2-logrotate
+sudo pm2 install pm2-logrotate
 
 sudo apt install python python3 python2 -y
 cd ~/
