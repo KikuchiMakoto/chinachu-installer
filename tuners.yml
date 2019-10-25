@@ -40,3 +40,5 @@
   types:
     - GR
   command: recdvb --b25 --strip --dev 0 <channel> - -
+  decoder: arib-b25-stream-test
+  
